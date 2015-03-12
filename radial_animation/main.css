@@ -1,0 +1,95 @@
+body {
+  font-family: arial, sans-serif;
+  margin: 0 auto;
+}
+h1 {
+  color: #004280;
+}
+body .radial-container {
+  width: 500px;
+  margin: 0 auto;
+  padding-left: 50px;
+  /* old */
+  padding-left: 5vm;
+  /* IE9 */
+  padding-left: 3.125rem;
+  padding-left: 5vmin;
+  padding-right: 50px;
+  /* old */
+  padding-right: 5vm;
+  /* IE9 */
+  padding-right: 3.125rem;
+  padding-right: 5vmin; }
+  body .radial-container > div {
+    float: left; }
+    body .radial-container > div:nth-child(1) {
+      width: 20%; }
+    body .radial-container > div:nth-child(2) {
+      width: 80%;
+      padding-left: 25px;
+      /* old */
+      padding-left: 2.5vm;
+      /* IE9 */
+      padding-left: 1.5625rem;
+      padding-left: 2.5vmin; }
+  body .radial-container .radial-bar {
+    margin-top: 50px;
+    margin-left: 62px;
+    float: left; }
+    body .radial-container .radial-bar input {
+      border-color: #004280;
+      border-style: solid;
+      border-width: 10px;
+      /* old */
+      border-width: 1vm;
+      /* IE9 */
+      border-width: 0.625rem;
+      border-width: 1vmin;
+      border-radius: 50%;
+      width: 120px;
+      /* old */
+      width: 12vm;
+      /* IE9 */
+      width: 7.5rem;
+      width: 12vmin;
+      height: 120px;
+      /* old */
+      height: 12vm;
+      /* IE9 */
+      height: 7.5rem;
+      height: 12vmin;
+      line-height: 120px;
+      /* old */
+      line-height: 12vm;
+      /* IE9 */
+      line-height: 7.5rem;
+      line-height: 12vmin;
+      background-color: transparent;
+      color: #004280;
+      font-size: 80px;
+      /* old */
+      font-size: 8vm;
+      /* IE9 */
+      font-size: 5rem;
+      font-size: 8vmin;
+      font-family: 'intel-lt', helvetica, sans-serif;
+      font-weight: normal;
+      line-height: 0.75;
+      text-align: center; }
+  body .radial-container p {
+    color: #004280;
+    font-size: 20px;
+    /* old */
+    font-size: 2vm;
+    /* IE9 */
+    font-size: 1.25rem;
+    font-size: 2vmin;
+    font-family: 'intel-lt', helvetica, sans-serif;
+    font-weight: normal;
+    line-height: 1.2;
+    padding-bottom: 25px;
+    /* old */
+    padding-bottom: 2.5vm;
+    /* IE9 */
+    padding-bottom: 1.5625rem;
+    padding-bottom: 2.5vmin; }
