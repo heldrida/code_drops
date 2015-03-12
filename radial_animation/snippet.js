@@ -15,8 +15,6 @@ function init() {
 			stepIncrementAmount = 0.175,
 			max = 88;
 
-		console.log('$knob', $knob);
-
 		$knob.knob({
 			format: function(v) {
 				var o = (v / 10).toFixed(1) + '',
